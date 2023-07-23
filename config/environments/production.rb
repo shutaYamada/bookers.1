@@ -4,6 +4,8 @@ Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
+   config.hosts << "14adefc8b1b349f5ad74c51d4a39fdb8.vfs.cloud9.ap-northeast-1.amazonaws.com"
+  
   config.cache_classes = true
 
   # Eager load code on boot. This eager loads most of Rails and
